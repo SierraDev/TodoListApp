@@ -1,0 +1,84 @@
+
+body {
+    background: #41295a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F0743, #41295a);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     font-family: 'VT323', monospace;
+     font-size: 20px;
+     padding: 10px 10px 10px 10px;
+}
+h1 {
+    background: rgba(156, 19, 109, 1);
+    color: rgba(255, 34, 141, 0.83);
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: normal;
+    font-family: 'Audiowide', monospace;
+}
+span {
+    background: rgba(188, 0, 84, 1);
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    width: 0;
+    display: inline-block;
+    transition: 0.35s all ease;
+    opacity: 0;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+li {
+    background: rgba(156, 19, 109, 1);
+    height: 40px;
+    line-height: 40px;
+    color: rgba(255, 34, 141, 0.83);
+}
+.fa-plus {
+    float: right;
+}
+li:hover span{
+    width: 40px;
+    opacity: 1.0;
+}
+input {
+    font-size: 18px;
+    background-color:rgba(68, 0, 64, 0.88);
+    width: 100%;
+    padding: 10px 10px 10px 18px;
+    box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+}
+input:focus {
+    outline: none;
+    background: rgba(255, 0, 89, 0.45)
+}
+input, select, textarea {
+    color: rgba(255, 34, 141, 0.83);
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+    outline: none;
+    box-shadow: 0px 0px 3px rgba(68, 0, 64, 0.88);
+}
+::placeholder{
+    color: rgba(255, 34, 141, 0.83);
+    font-size: 28px;
+    opacity: 0.65;
+}
+#container {
+    background: rgba(68, 0, 64, 0.88);
+    box-shadow: 0px 0px 3px rgba(255, 0, 196, 1);
+    width: 360px;
+    margin: 100px auto;
+}
+.completed {
+    color: gray;
+    text-decoration: line-through;
+}
