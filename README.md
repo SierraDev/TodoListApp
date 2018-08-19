@@ -1,1 +1,1 @@
-This is a To-Do List utilizing JQuery.
+A To-Do List utilizing JQuery.
